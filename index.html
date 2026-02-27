@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Web 3</title>
+</head>
+<body>
+    <header style="background-color: aliceblue; padding: 10px;">
+        <h2>Header</h2>
+        <nav>
+            <a href="Prak3web.html">Home</a>
+            <a href="#section1">Section 1</a>
+            <a href="#section2">Section 2</a>
+            <a href="#section3">Section3</a>
+        </nav>
+    </header>
+
+    <section id="section1"style="background-color: lavender; height: 100vh;">
+        <article>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, odio quibusdam. Animi harum voluptates modi. Perferendis molestias tenetur temporibus? Quis perferendis accusantium eaque! Pariatur, expedita laborum adipisci eaque distinctio vitae.
+        </article>
+        <aside>
+            <details>
+                <summary>
+                    Jurusan
+                </summary>
+                <ul>
+                    <li> Ilmu Komputer</li>
+                    <li> Teknik Informatika</li>
+                    <li> Sistem Informasi</li>
+                </ul>
+            </details>
+        </aside>
+    </section>
+
+    <section id="section2" style="background-color: pink; height: 100vh; color: black;">
+        
+        
+        <form action="#" method="post" target="_self">
+
+        <fieldset>
+        <label for="username">Nama : </label>
+        <input type="text" id="username" name="username">
+        <br><br>
+
+        <label for="npm">NPM : </label>
+        <input type="number" id="npm" name="npm">
+        <br><br>
+
+        <label for="email">email : </label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="password">Password : </label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        
+        </fieldset>
+
+        <label for="jk">Jenis Kelamin : </label>
+        <br>
+        <input type="radio" id="lk" name="jk">
+        <label for="lk">Laki-laki</label>
+        <br>
+        <input type="radio" id="pr" name="jk">
+        <label for="pr">Perempuan</label>
+        <br><br>
+
+        <label for="">Hobi</label><br>
+        <input type="checkbox" id="hobi1" name="hobi[]" value="Membaca">
+        <label for="hobi1">Membaca</label><br>
+        <input type="checkbox" id="hobi2" name="hobi[]" value="Coding">
+        <label for="hobi1">Coding</label><br>
+        <input type="checkbox" id="hobi3" name="hobi[]" value="Menulis">
+        <label for="hobi1">Menulis</label><br><br>
+
+        <label for="upload">Upload File</label>
+        <input type="file" id="upload" name="upload">
+        <br><br>
+
+        <label for="tanggal">Tanggal : </label>
+        <input type="date" id="tanggal" name="tanggal">
+        <br><br>
+
+        <label for="waktu">Waktu : </label>
+        <input type="time" id="waktu" name="waktu">
+        <br><br>
+
+        <input type="hidden" name="role" value="Mahasiswa">
+        <input type="hidden" name="jurusan" value="Ilmu Komputer">
+
+        <input for="search"> Cari Data</labe>
+        <input type="search" id="search" name="search">
+
+        <button>submit</button>
+        </form>
+
+    </section>
+
+    <footer>Ilmu Komputer</footer>
+
+</body>
+</html>
