@@ -2,209 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Praktikum Web 3</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <header style="background-color: aliceblue; padding: 10px;">
-        <h2>Header</h2>
-        <nav>
-            <a href="Prak3web.html">Home</a>
-            <a href="#section1">Section 1</a>
-            <a href="#section2">Section 2</a>
-            <a href="#section3">Section3</a>
-        </nav>
-    </header>
+<nav id="navbar">
+    <h1>CSS Dasar</h1>
+    <div>
+        <a href="#beranda">Beranda</a>
+        <a href="#materi">Materi</a>
+        <a href="#kontak">Kontak</a>
+    </div>
+</nav>
+<section id="beranda" class="section">
+    <div class="container">
 
-    <section id="section1"style="background-color: lavender; height: 100vh;">
-        <article>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, odio quibusdam. Animi harum voluptates modi. Perferendis molestias tenetur temporibus? Quis perferendis accusantium eaque! Pariatur, expedita laborum adipisci eaque distinctio vitae.
-        </article>
-        <aside>
-            <details>
-                <summary>
-                    Jurusan
-                </summary>
-                <ul>
-                    <li> Ilmu Komputer</li>
-                    <li> Teknik Informatika</li>
-                    <li> Sistem Informasi</li>
-                </ul>
-            </details>
-        </aside>
-    </section>
+        <div class="hero">
+            <h2>
+                <span>Belajar</span> CSS Dasar
+            </h2>
+            <p>Pemrograman Web - Pertemuan 4</p>
+            <button class="tombol">Mulai Belajar</button>
+        </div>
 
-    <section id="section2" style="background-color: pink; height: 100vh; color: black;">
-        
-        
-        <form action="#" method="post" target="_self">
+        <div class="kartu-grid">
+            <div class="kartu">
+                <h3>Selector</h3>
+                <p>Selector menargetkan elemen HTML yang ingin diberi style CSS.</p>
+                <button class="tombol">Pelajari</button>
+            </div>
 
-        <fieldset>
-        <label for="username">Nama : </label>
-        <input type="text" id="username" name="username">
-        <br><br>
+            <div class="kartu">
+                <h3>Box Model</h3>
+                <p>Margin, padding, border membentuk box model setiap elemen.</p>
+                <button class="tombol">Pelajari</button>
+            </div>
+        </div>
+    </div>
+</section>
 
-        <label for="npm">NPM : </label>
-        <input type="number" id="npm" name="npm">
-        <br><br>
+</div>
+</section>
 
-        <label for="email">email : </label>
-        <input type="email" id="email" name="email">
-        <br><br>
+<section id="materi" class="section">
+    <div class="container">
+        <h2>Materi</h2>
+        <p>Di sini berisi materi CSS dasar.</p>
+    </div>
+</section>
 
-        <label for="password">Password : </label>
-        <input type="password" id="password" name="password">
-        <br><br>
-        
-        </fieldset>
+<section id="kontak" class="section">
+    <div class="grid">
+        <div>Kontak</div>
+        <div>Kontak</div>
+        <div>Kontak</div>
+        <div>Kontak</div>
+        <div>Kontak</div>
+        <div>Kontak</div>
+    </div>
+</section>
 
-        <label for="jk">Jenis Kelamin : </label>
-        <br>
-        <input type="radio" id="lk" name="jk">
-        <label for="lk">Laki-laki</label>
-        <br>
-        <input type="radio" id="pr" name="jk">
-        <label for="pr">Perempuan</label>
-        <br><br>
-
-        <label for="">Hobi</label><br>
-        <input type="checkbox" id="hobi1" name="hobi[]" value="Membaca">
-        <label for="hobi1">Membaca</label><br>
-        <input type="checkbox" id="hobi2" name="hobi[]" value="Coding">
-        <label for="hobi1">Coding</label><br>
-        <input type="checkbox" id="hobi3" name="hobi[]" value="Menulis">
-        <label for="hobi1">Menulis</label><br><br>
-
-        <label for="upload">Upload File</label>
-        <input type="file" id="upload" name="upload">
-        <br><br>
-
-        <label for="tanggal">Tanggal : </label>
-        <input type="date" id="tanggal" name="tanggal">
-        <br><br>
-
-        <label for="waktu">Waktu : </label>
-        <input type="time" id="waktu" name="waktu">
-        <br><br>
-
-        <input type="hidden" name="role" value="Mahasiswa">
-        <input type="hidden" name="jurusan" value="Ilmu Komputer">
-
-        <input for="search"> Cari Data</labe>
-        <input type="search" id="search" name="search">
-
-        <button>submit</button>
-        </form>
-
-    </section>
-
-    <footer>Ilmu Komputer</footer>
-
-    <title>Pertemuan 2</title>
-</head>
-
-<body>
-    <img src="images/Class-Schedule.jpg" width="500" height="500" alt="fox image">
-
-    <table border="1" cellpadding="10" cellspacing="10" >
-        <tr>
-            <th>Nama</th>
-            <th>Alamat</th>
-            <th>Umur</th>
-        </tr>
-        <tr>
-            <td>Sakinah</td>
-            <td rowspan="3">2417051024</td>
-            <td>19 Tahun</td>
-        </tr>
-        <tr>
-            <td>Sakinah</td>
-            <td>19 Tahun</td>
-        </tr>
-        <tr>
-            <td>Sakinah</td>
-            <td>19 Tahun</td>
-        </tr>
-    </table>
-
-    <br>
-    
-    <form action="ambil.html" method="GET">
-        <label for="name">Nama: </label>
-        <input id="nama" type="text" nama="nama" placeholder="masukkan nama">
-    
-        <button type="submit">Submit</button>
-    </form>
-
-    <br>
-
-    <form action="">
-        <label for="nama">Nama : </label>
-        <input type="text" id="nama" placeholder="masukkan nama">
-        <br>
-        <label for="email ">Email : </label>
-        <input type="text" id="email" placeholder="masukkan email">
-        <br>
-        <label for="password">password : </label>
-        <input type="password" id="password"  placeholder="masukkan password">
-        <label for="alamat">Alamat : </label>
-        <button type="submit">Submit</button>
-    </form>
-
-    <br>
-
-    <a href="https://unila.ac.id" target="_blank">UNILA</a>
-
-    <br>
-
-    <table border="1" cellpadding="10">
-        <tr>
-        <th>Jam</th>
-        <th>Senin</th>
-        <th>Selasa</th>
-        <th>Rabu</th>
-        <th>Kamis</th>
-        <th>Jumat</th>
-    </tr>
-    <tr>
-        <td>07.30 - 09.15</td>
-        <td>Matdis</td>
-        <td>Aljabar linear</td>
-        <td>Pemrograman web</td>
-        <td>Algoritma Pemrograman</td>
-        <td>DDP</td>
-    </tr>
-    <tr>
-        <td>07.30 - 09.15</td>
-        <td>Matdis</td>
-        <td>Aljabar linear</td>
-        <td>Pemrograman web</td>
-        <td>Algoritma Pemrograman</td>
-        <td>DDP</td>
-    </tr>
-    <tr>
-        <td>07.30 - 09.15</td>
-        <td>Matdis</td>
-        <td>Aljabar linear</td>
-        <td>Pemrograman web</td>
-        <td>Algoritma Pemrograman</td>
-        <td>DDP</td>
-    </tr>
-    <tr>
-        <td>07.30 - 09.15</td>
-        <td>Matdis</td>
-        <td>Aljabar linear</td>
-        <td>Pemrograman web</td>
-        <td>Algoritma Pemrograman</td>
-        <td>DDP</td>
-    </tr>
-    </table>
-
-    <br>
-
-    <a href="https://github.com/SakinahInaa">Github Sakinah</a>
-   
-
-    <br>
+    <footer>
+        Pemrograman Web - CSS Dasar
+    </footer>
 </body>
 </html>
